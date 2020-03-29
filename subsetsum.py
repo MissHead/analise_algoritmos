@@ -1,0 +1,1 @@
+def subsetsum(soma, lista, numero)
