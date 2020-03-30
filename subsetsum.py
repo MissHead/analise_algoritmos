@@ -1,18 +1,18 @@
-def subsetsum(soma, lista, tamanho):
+def subsetsum(soma, conjunto, tamanho):
     if soma != 0 and tamanho == 0:
         return False
     if soma == 0:
         return True
-    if lista[tamanho - 1] > soma:
+    if conjunto[tamanho - 1] > soma:
         pass
-    resultado = subsetsum(soma, lista, tamanho - 1) or subsetsum(soma - lista[tamanho - 1], lista, tamanho - 1) 
+    resultado = subsetsum(soma, conjunto, tamanho - 1) or subsetsum(soma - conjunto[tamanho - 1], conjunto, tamanho - 1) 
     return resultado
 
 entrada = input()
-lista = entrada.split()
-lista = [int(valor) for valor in lista]
+conjunto = entrada.split()
+conjunto = [int(valor) for valor in conjunto]
 soma = input()
 soma = int(soma)
-tamanho = len(lista)
-resultado = subsetsum(soma, lista, tamanho)
+tamanho = len(conjunto)
+resultado = subsetsum(soma, conjunto, tamanho)
 print('Subconjunto tem como soma: ' + str(soma)) if resultado else print('Não há subconjunto que satisfaça a soma: ' + str(soma))
