@@ -13,11 +13,7 @@ def subsetsum(soma, conjunto):
             else:
                 return subsetsum(soma, conjunto[1:])
     
-entrada = input()
-conjunto = entrada.split()
-conjunto = [int(valor) for valor in conjunto]
-soma = input()
-soma = int(soma)
-tamanho = len(conjunto)
+conjunto = [int(elementos) for elementos in input().split()]
+soma = int(input())
 resultado = subsetsum(soma, conjunto)
 print('O Subconjunto: ' + str(resultado) + ' tem como soma: ' + str(soma)) if resultado else print('Não há subconjunto que satisfaça a soma: ' + str(soma))
