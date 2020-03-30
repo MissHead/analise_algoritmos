@@ -1,5 +1,5 @@
 def subsetsum(soma, conjunto):
-    if soma == 0 or soma < 1:
+    if soma == 0:
         return False
     elif len(conjunto) == 0:
         return False
