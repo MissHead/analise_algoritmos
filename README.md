@@ -1,14 +1,14 @@
 ## IESB
 **Disciplina: Análise de Algoritmos**
+
 1º/2020
+
 ## SUBSET SUM *(Soma de subconjuntos)*
   
 
  ***1º parte:***
 
-a) Implementar a solução recursiva do *subset sum* que informa se existe
-
-algum algum subconjunto que é igual a capacidade informada.
+a) Implementar a solução recursiva do *subset sum* que informa se existe algum subconjunto que é igual a capacidade informada.
 
 b) Demonstrar a complexidade de forma matemática através do método da expansão.
 
