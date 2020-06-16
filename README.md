@@ -137,7 +137,7 @@ Fazer a leitura e interpretação da seguinte parte teórica: Link https://www.i
 
 6)  Resolver o exercício:
 
-##Parte 3
+## Parte 3
 
 1. A linha q = 0 da tabela D é realmente necessária?
 
