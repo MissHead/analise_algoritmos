@@ -65,9 +65,11 @@ f) faça a dedução matemática da complexidade da utilização da tabela dinâ
 
 > Data de entrega: 30/04/2020
 
-## ALGORITMOS GULOSOS *(mochila fracionária/sequencia de tarefas/busca padroes/compressao palavras/huffman)*
+## ALGORITMOS GULOSOS 
 
-1) Implemente a solução para o problemda mochila frácionária que receba do usuário uma capacidade C, um número inteiro positivo N e 2 vetores de tamanho N que correspondem ao Peso e o valor de cada um dos N elementos. É obrigatória a utilização de uma solução gulosa.
+*(mochila fracionária/sequencia de tarefas/busca padroes/compressao palavras/huffman)*
+
+1) Implemente a solução para o problema da mochila frácionária que receba do usuário uma capacidade C, um número inteiro positivo N e 2 vetores de tamanho N que correspondem ao Peso e o valor de cada um dos N elementos. É obrigatória a utilização de uma solução gulosa.
 
 2) Encontre algum problema que pode ser resolvido com algoritmo guloso, e implemente sua solução. Demonstre a complexidade para solução do problema e gere um relatório com os tempos de execução em relação ao aumento da entrada.
 
@@ -85,21 +87,30 @@ fixo diga qual o custo computacional para se comprimir essa string.
 
 
 Fazer a leitura e interpretação da seguinte parte teórica: Link https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/string-match.html
+
     - Busca de uma palavra em um texto
+    
     - O problema
+    
     - Algoritmo inocente
+    
     - Maior prefixo de P que é sufixo de T
+    
     - Algoritmo do autômato
+    
     - Correção do algoritmo
+    
     - Consumo de tempo
+    
     - Pré-processamento
+    
     - Consumo de tempo total
     
 1)  Implemente a Solução Inocente
 
 2)  Resolver os exercícios:
 
-##Parte 1
+## Parte 1
 
 1. O algoritmo É-Sufixo produz resultado correto se n < m? 
 
@@ -109,7 +120,7 @@ Fazer a leitura e interpretação da seguinte parte teórica: Link https://www.i
 
 3) Resolver os exercícios:
 
-##Parte 2
+## Parte 2
 
 1. Posso trocar a linha 2 por Busca-De-Palavra-Em-Texto por "para k crescendo de 1 até n−m+1 faça"?
 
@@ -120,7 +131,7 @@ Fazer a leitura e interpretação da seguinte parte teórica: Link https://www.i
 5)  Implemente a solução KMP
 
 
-##BONUS
+## BONUS
 
 5)  Implemente a busca de string com automatos inclusive seu pré processamento.
 
